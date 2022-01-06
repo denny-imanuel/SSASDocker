@@ -2,13 +2,13 @@
 by Denny Imanuel
 
 This mini project showcase how to spin up Microsoft SQL Server container with SSAS (SQL Server Analytics Service) features. 
-This also shows how to build SSIS project via SSDT (SQL Server Data Tools) tools in Visual Studio
+This also shows how to build SSAS project via SSDT (SQL Server Data Tools) tools in Visual Studio
 
 
 ### Requirement
 1. Visual Studio CE - Install Visual Studio Community Edition
 2. SSDT - Install SSDT (SQL Server Data Tools) tools on Visual Studio (Tools > Get Tools and Features)
-3. SSIS - Install SSAS (Microsoft Analytics Services) extension on Visual Studio (Extension > Manage Extension)
+3. SSAS - Install SSAS (Microsoft Analytics Services) extension on Visual Studio (Extension > Manage Extension)
 4. SSMS - Install SSMS (SQL Server Management Studio) on your Windows machine to connect to Docker Sql
 5. Docker Desktop - Install Docker Desktop for Windows on your Windows machine
 
