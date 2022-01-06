@@ -1,0 +1,12 @@
+﻿version: '3'
+
+services:
+  ssis:
+    build: .
+    image: ssas:latest
+    container_name: ssas
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=ABCabc123!

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSASDocker", "SSASDocker\SSASDocker.dwproj", "{EFE88DFD-B40A-401E-A52B-6B7C477AB517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99318116-17AF-4384-8E11-9C58AE30A9EC}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFE88DFD-B40A-401E-A52B-6B7C477AB517}.Development|Default.ActiveCfg = Development
+		{EFE88DFD-B40A-401E-A52B-6B7C477AB517}.Development|Default.Build.0 = Development
+		{EFE88DFD-B40A-401E-A52B-6B7C477AB517}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33A5A811-8CBB-4083-B4EC-8BD9EA9E8038}
+	EndGlobalSection
+EndGlobal
